@@ -16,7 +16,7 @@
     display: flex;
     width: 400px;
     height: 78px;
-    background: #dbf0ed;
+    background: #c195ef;
     border-radius: 40px;
     border: none;
     outline: none;
@@ -33,7 +33,7 @@
     align-items: center;
     width: 70px;
     height: 70px;
-    background:  #dbf0ed;
+    background:  #9e86db;
     border-radius: 40px;
     cursor: pointer;
     
@@ -46,7 +46,7 @@
 .weather-temp{
     display: flex;
     justify-content: center;
-    color: #d7fc05;
+    color: #2f053d;
     font-size: 80px;
     font-weight: 400;
 
@@ -54,7 +54,7 @@
 .weather-location{
     display: flex;
     justify-content: center;
-    color: #000000;
+    color: #ddef82;
     font-size: 40px;
     font-weight: 600;
 }
@@ -62,7 +62,7 @@
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    color: #8e7ff5;
+    color: #ebaeff;
 }
 .element{
     margin: auto;
