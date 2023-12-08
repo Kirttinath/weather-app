@@ -4,7 +4,7 @@
     margin: auto;
     margin-top: 85px;
     border-radius: 20px;
-    background-image: linear-gradient(180deg, #25167c 20%, #523cce 100%);
+    background-image: url('../Assets/backgound.png');
 }
 .top-bar{
     display: flex;
@@ -37,4 +37,47 @@
     border-radius: 40px;
     cursor: pointer;
     
+}
+.weather-image{
+    margin-top: 29px;
+    display: flex;
+    justify-content: center;
+}
+.weather-temp{
+    display: flex;
+    justify-content: center;
+    color: #dbf0ed;
+    font-size: 80px;
+    font-weight: 400;
+
+}
+.weather-location{
+    display: flex;
+    justify-content: center;
+    color: #dbf0ed;
+    font-size: 40px;
+    font-weight: 400;
+}
+.data-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: #dbf0ed;
+}
+.element{
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+.data{
+    font-size: 34px;
+    font-weight: 400;
+}
+.text{
+    font-size: 20px;
+    font-weight: 400;
+}
+.icon{
+    margin-top: 10px;
 }
