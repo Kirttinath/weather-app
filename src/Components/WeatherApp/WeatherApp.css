@@ -46,7 +46,7 @@
 .weather-temp{
     display: flex;
     justify-content: center;
-    color: #dbf0ed;
+    color: #d7fc05;
     font-size: 80px;
     font-weight: 400;
 
@@ -54,15 +54,15 @@
 .weather-location{
     display: flex;
     justify-content: center;
-    color: #dbf0ed;
+    color: #000000;
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 600;
 }
 .data-container{
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    color: #dbf0ed;
+    color: #8e7ff5;
 }
 .element{
     margin: auto;
