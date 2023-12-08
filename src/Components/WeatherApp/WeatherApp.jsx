@@ -8,14 +8,21 @@ import rain_icon from '../Assets/rain.png'
 import snow_icon from '../Assets/snow.png'
 import wind_icon from '../Assets/wind.png'
 import humidity_icon from '../Assets/humidity.png'
-
+//import backg_img from '../Assets/background.jpg'
 
 const WeatherApp = () => {
+    
+       let api_key = "7ba554cd62905aee64a416fce651419c";
+   const search = () => {
+      
+
+   }
+
   return (
-    <div className='container'>
+    <div className='container' >
       <div className="top-bar">
         <input type="text" className='cityInput' placeholder='Search City'/>
-        <div className="serach-icon">
+        <div className="serach-icon" onClick={()=> {search()}}>
             <img src={search_icon} alt="" />
         </div>
       </div>
@@ -26,10 +33,17 @@ const WeatherApp = () => {
       <div className="weather-location">Bhubaneswar</div>
       <div className="data-container">
         <div className="element">
-            <img src="" alt="" />
+            <img src={humidity_icon} alt="" className='icon' />
             <div className="data">
                 <div className="humidity-percent">64%</div>
                 <div className="text">Humidity</div>
+            </div>
+        </div>
+        <div className="element">
+            <img src={wind_icon} alt="" className='icon'/>
+            <div className="data">
+                <div className="humidity-percent">18 km/h</div>
+                <div className="text">Wind Speed</div>
             </div>
         </div>
       </div>
