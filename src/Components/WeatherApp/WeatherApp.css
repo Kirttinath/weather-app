@@ -2,6 +2,7 @@
     width: 750px;
     height: 829px;
     margin: auto;
+    margin-top: 85px;
     border-radius: 20px;
     background-image: linear-gradient(180deg, #25167c 20%, #523cce 100%);
 }
@@ -16,11 +17,22 @@
     width: 400px;
     height: 78px;
     background: #dbf0ed;
-    border-radius: 30px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
 }
 .cityInput{
     font-size: 26px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 500;
-    text-align: center;
+   padding-left: 45px;
+}
+.serach-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    background:  #dbf0ed;
+    border-radius: 40px;
 }
