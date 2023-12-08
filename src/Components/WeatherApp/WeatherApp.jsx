@@ -80,19 +80,19 @@ const WeatherApp = () => {
         <img src={wicon} alt="" />
       </div>
       <div className="weather-temp">24°c</div>
-      <div className="weather-location">Bhubaneswar</div>
+      <div className="weather-location"></div>
       <div className="data-container">
         <div className="element">
             <img src={humidity_icon} alt="" className='icon' />
             <div className="data">
-                <div className="humidity-percent">64%</div>
+                <div className="humidity-percent"></div>
                 <div className="text">Humidity</div>
             </div>
         </div>
         <div className="element">
             <img src={wind_icon} alt="" className='icon'/>
             <div className="data">
-                <div className="wind-rate">18 km/h</div>
+                <div className="wind-rate"></div>
                 <div className="text">Wind Speed</div>
             </div>
         </div>
